@@ -1,0 +1,18 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.eteration.survey</groupId>
+    <artifactId>com.eteration.survey</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <groupId>com.eteration.survey.web</groupId>
+  <artifactId>com.eteration.survey.web</artifactId>
+  <packaging>war</packaging>
+  <dependencies>
+  	<dependency>
+  		<groupId>com.eteration.survey.service</groupId>
+  		<artifactId>com.eteration.survey.service</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  </dependencies>
+</project>
